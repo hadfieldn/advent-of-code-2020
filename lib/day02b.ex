@@ -1,6 +1,6 @@
 defmodule Day02B do
   @moduledoc """
-  Day 1: Given a list of passwords, identify how many are valid.
+  Day 2, part 2: Given a list of passwords, identify how many are valid.
 
   Password format: <n>-<m> <a>: <password>
   `password` must contain one and only one `a` in positions `n` and `m` (1-based).

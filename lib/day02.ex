@@ -1,6 +1,6 @@
 defmodule Day02 do
   @moduledoc """
-  Day 1: Given a list of passwords, identify how many are valid.
+  Day 2: Given a list of passwords, identify how many are valid.
 
   Password format: <n>-<m> <a>: <password>
   `password` must contain minimum `n` and maximum `m` occurrences of `a`.
