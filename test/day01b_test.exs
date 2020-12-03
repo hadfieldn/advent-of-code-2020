@@ -1,6 +1,6 @@
 defmodule Day01BTest do
   use ExUnit.Case
-  doctest Day01_2
+  doctest Day01B
 
   describe "find_addends/2" do
     result = Day01_2.find_addends([1, 2, 4, 8, 16], 13)

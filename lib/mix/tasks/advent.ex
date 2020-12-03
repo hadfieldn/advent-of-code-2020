@@ -8,6 +8,8 @@ defmodule Mix.Tasks.Advent do
     case day do
       "01" -> Day01.run()
       "01b" -> Day01B.run()
+      "02" -> Day02.run()
+      "02b" -> Day02B.run()
       _ -> IO.puts("Not yet implemented.")
     end
   end
