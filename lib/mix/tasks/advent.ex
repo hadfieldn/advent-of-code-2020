@@ -14,6 +14,8 @@ defmodule Mix.Tasks.Advent do
       "03b" -> Day03B.run()
       "04" -> Day04.run()
       "04b" -> Day04B.run()
+      "05" -> Day05.run()
+      "05b" -> Day05B.run()
       _ -> IO.puts("Not yet implemented.")
     end
   end
