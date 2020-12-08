@@ -23,7 +23,7 @@ defmodule Day07 do
 
   def options_count_for_bag_color(rules, target_color) when is_map(rules) and is_binary(target_color) do
     rules
-    |> Enum.count(fn {color, rule} -> rule_contains_color?(rule, target_color, %{rules: rules}) end)
+    |> Enum.count(fn {_color, rule} -> rule_contains_color?(rule, target_color, %{rules: rules}) end)
   end
 
   def rule_contains_color?(rule, _, _) when rule == %{}, do: false
