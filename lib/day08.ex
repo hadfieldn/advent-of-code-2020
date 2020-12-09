@@ -21,7 +21,7 @@ defmodule Day08 do
       instr = Enum.at(code, ptr)
       state = execute(instr, state)
       state = %{state | visited: MapSet.put(visited, ptr)}
-#      IO.inspect(%{instr: instr, state: state})
+      #      IO.inspect(%{instr: instr, state: state})
       execute_code(code, state)
     else
       state
