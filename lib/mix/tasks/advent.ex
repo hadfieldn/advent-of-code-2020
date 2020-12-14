@@ -32,6 +32,8 @@ defmodule Mix.Tasks.Advent do
       "12b" -> Day12B.run()
       "13" -> Day13.run()
       "13b" -> Day13B.run()
+      "14" -> Day14.run()
+      "14b" -> Day14B.run()
       _ -> IO.puts("Not yet implemented.")
     end
   end
